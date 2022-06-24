@@ -1,0 +1,85 @@
+.sobre__mim {
+    margin: 135px auto 0;
+    width: 860px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.sobre__mim__titulo {
+    font-size: 44px ;
+    font-weight: bold; 
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+
+.sobre__mim__resumo {
+    width: 497px;
+    line-height: 23px;
+    color: #464646;
+   
+    
+    
+}
+
+.sobre__mim__imagem {
+    width: 243px;
+    height:243px;
+    border-radius: 50%;
+    box-shadow: 0 0 1em black;
+}
+
+.redes__socias {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 25px 0;
+
+}
+
+
+.link {
+    text-decoration: none;
+    color: #464646;
+    font-size: 20px;
+    font-weight: 700;
+    width: 50px;
+}
+
+
+@media (max-width:950px) {
+
+    .sobre__mim {
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .sobre__mim__titulo {
+        font-size: 32px;
+        margin-bottom: 44px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .sobre__mim__resumo{
+        font-size: 18px;
+        width: 298px;
+        letter-spacing: normal;
+        
+        
+    }
+
+    .sobre__mim__imagem {
+        width: 177px;
+        height: 177px;
+        margin-bottom: 36px;
+    }
+
+    .link{
+       font-size: 14px;
+       line-height: 16px;
+       font-weight: 600;
+    }
+}
